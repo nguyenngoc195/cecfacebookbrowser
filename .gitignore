@@ -5,6 +5,7 @@
 .recommenders/
 # files for the dex VM
 *.dex
+Secret.java
 
 # Java class files
 *.class
