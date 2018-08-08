@@ -24,8 +24,10 @@ dependencies {
 	
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:14.0.1'
-
+	implementation group: 'com.googlecode.objectify', name: 'objectify', version: '6.0'
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    implementation 'com.google.cloud:google-cloud-datastore:1.31.0'
+    implementation 'org.jsoup:jsoup:1.11.3'
 }
 

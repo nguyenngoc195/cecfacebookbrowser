@@ -9,7 +9,7 @@ Secret.java
 
 # Java class files
 *.class
-
+*.json
 # generated files
 bin/
 gen/
